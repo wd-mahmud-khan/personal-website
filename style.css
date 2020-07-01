@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+section {
+  height: 700px;
+}
+.half-width {
+  width: 40%;
+  padding: 5%;
+  float: left;
+}
+img {
+  width: 100%;
+}
+.padding-top {
+  height: 100%;
+  padding-top: 150px;
+}
+.intro-area {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.padding-top h1 {
+  color: tomato;
+}
+.link-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: tomato;
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.link-button:hover {
+  background-color: crimson;
+}
+
+.biography-area {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.work-area {
+  padding: 0 5%;
+}
+.latest-area {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 500px;
+}
+.latest-area h2 {
+  text-align: center;
+}
+
+.work-img img {
+  width: 100%;
+}
+.work-img {
+  width: 30%;
+  float: left;
+  margin: 20px;
+}
+
+footer {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  height: 500px;
+  text-align: center;
+}
+.client-info {
+  padding: 30px 0;
+}
+.client-info h5 {
+  color: darkolivegreen;
+}
+.quote {
+  width: 50%;
+  margin: 40px auto;
+}
+/* ========== just practice purpose =========== */
+.quote::before {
+  content: '"';
+}
+.quote::after {
+  content: '"';
+}
+.contact-btn {
+  text-decoration: none;
+  background: linear-gradient(90deg, crimson, tomato);
+  color: white;
+  padding: 40px 50px;
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
